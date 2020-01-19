@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+h1{
+	background: #2c3e50;
+    padding: 25px;
+    color: white;
+    text-align: center;
+}
+.container{
+	margin-top: 50px;
+	text-align: center;
+}
+.item{
+	display: inline-block;
+	margin-right: 150px;
+}
+.object{
+	width: 200px;
+	height: 200px;
+	margin-bottom: 20px;
+	transition: .5s ease;
+}
+#obj-1{
+	background: #2980b9;
+}
+#obj-2{
+	background: #e74c3c;
+}
+#obj-3{
+	background: #e67e22;
+}
+.item button{
+	padding: 7px 10px;
+    border: none;
+    background: #4fb380;
+    color: white;
+    border-radius: 5px;
+}
